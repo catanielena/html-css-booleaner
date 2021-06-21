@@ -3,10 +3,8 @@ body{
 }
 
 .container{
-    width: 70%;
-    margin: 0 auto;
+    margin:0 8px;
 }
-
 /* header */
 header{
     height: 110px;
@@ -22,9 +20,6 @@ header{
 }
 
 /* main */
-main{
-    padding: 0 5px;
-}
 
 .articolo_title{
     margin-top: 20px;
