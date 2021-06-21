@@ -4,7 +4,7 @@ body{
 
 .container{
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header{
@@ -18,5 +18,34 @@ header{
     width: 250px;
     margin-top: 40px;
     margin-left: 10px;
-    display: inline-block;
+}
+
+main{
+    padding: 0 5px;
+}
+
+.title_top{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin: auto;
+}
+
+.title_bottom{
+    color: grey;
+}
+
+.autore{
+    font-size: 20px;
+}
+
+.title_bottom a{
+    text-decoration: none;
+    color: #20A9E5;
+}
+
+.data{
+    font-size: 14px;
 }
