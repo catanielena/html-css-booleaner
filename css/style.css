@@ -7,6 +7,7 @@ body{
     margin: 0 auto;
 }
 
+/* header */
 header{
     height: 110px;
     background-color: #4EA0FF;
@@ -20,11 +21,12 @@ header{
     margin-left: 10px;
 }
 
+/* main */
 main{
     padding: 0 5px;
 }
 
-.title{
+.articolo_title{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -74,4 +76,35 @@ thead{
 
 .riga-alternata{
     background-color: #B1E5F2;
+}
+
+/* footer */
+footer{
+    color: grey;
+    margin: 30px 0;
+}
+.suggeriti{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#suggeriti_img_1{
+    width: 250px;
+    height: 180px;
+    background-image: url("../img/monitor.jpg");
+    background-position: cover;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#suggeriti_img_2{
+    width: 250px;
+    height: 180px;
+    background-image: url("../img/graph.jpg");
+    background-position: cover;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 15px;
 }
