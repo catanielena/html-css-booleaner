@@ -24,8 +24,9 @@ main{
     padding: 0 5px;
 }
 
-.title_top{
+.title{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -48,4 +49,29 @@ h1{
 
 .data{
     font-size: 14px;
+}
+
+.foto_bottom{
+    font-size: 14px;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+table{
+    text-align: left;
+    border-spacing: 0;
+}
+
+thead{
+    color: white;
+    background-color: #20A9E5;
+}
+.colonna_1, .colonna_2{
+    width: 20%;
+}
+
+.riga-alternata{
+    background-color: #B1E5F2;
 }
