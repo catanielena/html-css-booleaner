@@ -3,7 +3,8 @@ body{
 }
 
 main, footer{
-    margin:0 8px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -12,6 +13,7 @@ header{
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-size: 40% auto;
+    padding: 0 calc(30% / 2);
 }
 
 .logo{
@@ -75,7 +77,7 @@ thead{
 }
 
 .foto_top_img{
-    height: 500px;
+    height: 30%;
 }
 /* footer */
 footer{
