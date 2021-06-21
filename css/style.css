@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    height: 110px;
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-size: 40% auto;
+}
+
+.logo{
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: inline-block;
+}
