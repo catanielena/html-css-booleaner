@@ -2,8 +2,9 @@ body{
     margin: 0;
 }
 
-main, footer{
-    width: 70%;
+
+.container{
+    width:80%;
     margin: 0 auto;
 }
 
@@ -13,7 +14,6 @@ header{
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-size: 40% auto;
-    padding: 0 calc(30% / 2);
 }
 
 .logo{
@@ -90,22 +90,21 @@ footer{
     text-decoration: none;
 }
 
-#suggeriti_img_1{
+.suggeriti_img{
     width: 250px;
     height: 180px;
-    background-image: url("../img/monitor.jpg");
     background-position: cover;
     background-position: center;
     padding: 10px;
     margin-bottom: 15px;
+    background-repeat: no-repeat;
 }
 
-#suggeriti_img_2{
-    width: 250px;
-    height: 180px;
-    background-image: url("../img/graph.jpg");
-    background-position: cover;
-    background-position: center;
-    padding: 10px;
-    margin-bottom: 15px;
+#img_1{
+    background-image: url("../img/monitor.jpg");
 }
+
+#img_2{
+    background-image: url("../img/graph.jpg");
+}
+
